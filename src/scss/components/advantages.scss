@@ -1,0 +1,124 @@
+.advantages-section {
+  @include media(desktop) {
+  }
+}
+
+.advantages-bg-wrapper {
+  padding-top: 40px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    padding-top: 0;
+    padding-bottom: 80px;
+    max-width: 1440px;
+  }
+}
+
+.advantages-container {
+  @include media(desktop) {
+    padding-left: 149px;
+    padding-right: 160px;
+  }
+}
+
+.advantages-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 11px;
+
+  @include media(desktop) {
+    flex-direction: row-reverse;
+    align-items: end;
+    justify-content: start;
+    gap: 148px;
+  }
+}
+
+.advantages-text-wrapper {
+  @include media(desktop) {
+    max-width: 544px;
+  }
+}
+
+.advantages-title {
+  @include media(desktop) {
+  }
+}
+
+.advantages-top-text {
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #121212;
+  margin-bottom: 24px;
+
+  @include media(desktop) {
+    font-size: 18px;
+    margin-bottom: 32px;
+  }
+}
+
+.advantages-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 24px;
+
+  @include media(desktop) {
+    margin-bottom: 32px;
+  }
+}
+
+.advantages-list-item {
+  display: flex;
+  align-items: start;
+  gap: 8px;
+
+  @include media(desktop) {
+  }
+}
+
+.puzzle-icon {
+  min-width: 32px;
+
+  @include media(desktop) {
+  }
+}
+
+.advantages-item-text {
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #011e80;
+
+  @include media(desktop) {
+    font-size: 20px;
+  }
+}
+
+.advantages-bottom-text {
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #121212;
+
+  @include media(desktop) {
+    font-size: 18px;
+  }
+}
+
+.advantages-img {
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    margin: 0;
+    min-width: 439px;
+  }
+}

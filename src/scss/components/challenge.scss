@@ -1,0 +1,124 @@
+.challenge-section {
+  @include media(desktop) {
+  }
+}
+
+.challenge-bg-wrapper {
+  padding-top: 40px;
+  padding-bottom: 18px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    max-width: 1440px;
+  }
+}
+
+.challenge-container {
+  @include media(desktop) {
+    padding: 0 45px;
+  }
+}
+
+.challenge-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+
+  @include media(desktop) {
+    flex-direction: row-reverse;
+    align-items: start;
+    justify-content: start;
+    gap: 49px;
+  }
+}
+
+.challenge-text-wrapper {
+  @include media(desktop) {
+    max-width: 544px;
+  }
+}
+
+.challenge-title {
+  @include media(desktop) {
+  }
+}
+
+.challenge-top-text {
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #121212;
+  margin-bottom: 24px;
+
+  @include media(desktop) {
+    font-size: 18px;
+    margin-bottom: 32px;
+  }
+}
+
+.challenge-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 24px;
+
+  @include media(desktop) {
+    margin-bottom: 32px;
+  }
+}
+
+.challenge-list-item {
+  display: flex;
+  align-items: start;
+  gap: 8px;
+
+  @include media(desktop) {
+  }
+}
+
+.puzzle-icon {
+  min-width: 32px;
+
+  @include media(desktop) {
+  }
+}
+
+.challenge-item-text {
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #011e80;
+
+  @include media(desktop) {
+    font-size: 20px;
+  }
+}
+
+.challenge-bottom-text {
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #121212;
+
+  @include media(desktop) {
+    font-size: 18px;
+  }
+}
+
+.challenge-img {
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    margin: 0;
+    min-width: 642px;
+  }
+}
