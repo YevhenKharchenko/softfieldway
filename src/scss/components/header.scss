@@ -1,5 +1,5 @@
 .header {
-  background: #c2cbfb;
+  background: #8023aa;
   padding: 6px 0;
   position: fixed;
   width: 100%;
@@ -40,16 +40,16 @@
   @include media(desktop) {
     display: flex;
     align-items: center;
-    gap: 28px;
+    gap: 38px;
   }
 }
 
 .nav-list-link {
-  font-family: 'Fredoka', sans-serif;
-  font-weight: 400;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 300;
   font-size: 18px;
   line-height: 1.5;
-  color: #011e80;
+  color: #fffee7;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -76,7 +76,6 @@
 }
 
 .close-icon {
-  fill: #011e80;
 }
 
 .close-btn {
