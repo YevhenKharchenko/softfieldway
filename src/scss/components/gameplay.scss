@@ -28,26 +28,50 @@
   }
 }
 
+.gameplay-title {
+  @include media(desktop) {
+  }
+}
+
+.gameplay-subtitle {
+  @include media(desktop) {
+  }
+}
+
 .gameplay-img {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 24px;
+  margin-bottom: 40px;
 
   @include media(desktop) {
     position: absolute;
-    top: 0;
-    right: 184px;
+    top: 80px;
+    right: 160px;
+  }
+}
+
+.gameplay-list-text {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #8023aa;
+  margin-bottom: 16px;
+
+  @include media(desktop) {
+    font-size: 18px;
+    margin-bottom: 24px;
   }
 }
 
 .gameplay-list {
   display: flex;
   flex-direction: column;
-  gap: 8px;
-  margin-bottom: 24px;
+  gap: 16px;
+  margin-bottom: 40px;
 
   @include media(desktop) {
-    margin-bottom: 32px;
+    margin-bottom: 24px;
   }
 }
 
@@ -68,11 +92,11 @@
 }
 
 .gameplay-item-text {
-  font-family: 'Fredoka', sans-serif;
-  font-weight: 500;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
   font-size: 18px;
   line-height: 1.5;
-  color: #011e80;
+  color: #8023aa;
 
   @include media(desktop) {
     font-size: 20px;
@@ -80,13 +104,14 @@
 }
 
 .gameplay-text {
-  font-family: 'Fredoka', sans-serif;
-  font-weight: 400;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 300;
   font-size: 16px;
   line-height: 1.5;
-  color: #121212;
+  color: #8023aa;
 
   @include media(desktop) {
     font-size: 18px;
+    max-width: 544px;
   }
 }

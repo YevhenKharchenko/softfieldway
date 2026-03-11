@@ -1,17 +1,14 @@
-.advantages-section {
-  background: #8023aa;
-
+.world-section {
   @include media(desktop) {
   }
 }
 
-.advantages-bg-wrapper {
+.world-bg-wrapper {
   padding-top: 40px;
   padding-bottom: 40px;
   max-width: 375px;
   margin-left: auto;
   margin-right: auto;
-  position: relative;
 
   @include media(desktop) {
     padding-top: 80px;
@@ -20,78 +17,75 @@
   }
 }
 
-.advantages-container {
+.world-container {
   @include media(desktop) {
+    padding-right: 130px;
   }
 }
 
-.advantages-content-wrapper {
+.world-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+
   @include media(desktop) {
+    flex-direction: row-reverse;
+    justify-content: space-between;
   }
 }
 
-.advantages-text-wrapper {
+.world-text-wrapper {
   @include media(desktop) {
+    max-width: 574px;
   }
 }
 
-.advantages-title {
-  text-align: center;
-  color: #fffee7;
+.world-title {
+  @include media(desktop) {
+    max-width: 544px;
+  }
+}
+
+.world-subtitle {
   margin-bottom: 40px;
 
   @include media(desktop) {
   }
 }
 
-.advantages-subtitle {
-  @include media(desktop) {
-  }
-}
-
-.advantages-top-text {
+.world-top-text {
   font-family: 'Outfit', sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 1.5;
-  color: #fffee7;
-  text-align: center;
+  color: #8023aa;
   margin-bottom: 16px;
 
   @include media(desktop) {
     font-size: 18px;
+    max-width: 544px;
     margin-bottom: 24px;
   }
 }
 
-.advantages-list {
+.world-list {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 16px;
-  margin-bottom: 24px;
+  gap: 15px;
+  margin-bottom: 40px;
 
   @include media(desktop) {
-    flex-direction: row;
-    justify-content: center;
-    gap: 32px;
     margin-bottom: 24px;
   }
 }
 
-.advantages-list-item {
-  background: linear-gradient(180deg, #bca7e3 0%, #fbf5d4 100%);
-  border-radius: 24px;
-  padding: 16px 24px;
+.world-list-item {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: 24px;
-  width: 100%;
-  max-width: 343px;
+  gap: 8px;
 
   @include media(desktop) {
-    max-width: 256px;
   }
 }
 
@@ -102,29 +96,37 @@
   }
 }
 
-.advantages-item-text {
+.world-item-text {
   font-family: 'Outfit', sans-serif;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.5;
-  text-align: center;
   color: #8023aa;
 
   @include media(desktop) {
     font-size: 20px;
-    max-width: 224px;
   }
 }
 
-.advantages-bottom-text {
+.world-bottom-text {
   font-family: 'Outfit', sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 1.5;
-  text-align: center;
-  color: #fffee7;
+  color: #8023aa;
 
   @include media(desktop) {
     font-size: 18px;
+    max-width: 544px;
+  }
+}
+
+.world-img {
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    margin: 0;
+    min-width: 500px;
   }
 }

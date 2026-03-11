@@ -1,59 +1,64 @@
-.visual-section {
+.bonuses-section {
   @include media(desktop) {
   }
 }
 
-.visual-bg-wrapper {
+.bonuses-bg-wrapper {
   padding-top: 40px;
-  padding-bottom: 12px;
+  padding-bottom: 40px;
   max-width: 375px;
   margin-left: auto;
   margin-right: auto;
 
   @include media(desktop) {
     padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 60px;
     max-width: 1440px;
   }
 }
 
-.visual-container {
+.bonuses-container {
   @include media(desktop) {
-    padding: 0 109px;
   }
 }
 
-.visual-content-wrapper {
+.bonuses-content-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 14px;
+  gap: 16px;
 
   @include media(desktop) {
-    flex-direction: row-reverse;
+    flex-direction: row;
     justify-content: space-between;
   }
 }
 
-.visual-text-wrapper {
+.bonuses-text-wrapper {
   @include media(desktop) {
-    max-width: 574px;
+    max-width: 567px;
   }
 }
 
-.visual-title {
+.bonuses-title {
   @include media(desktop) {
-    max-width: 543px;
   }
 }
 
-.visual-top-text {
-  font-family: 'Fredoka', sans-serif;
-  font-weight: 400;
+.bonuses-subtitle {
+  margin-bottom: 40px;
+
+  @include media(desktop) {
+  }
+}
+
+.bonuses-top-text {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 300;
   font-size: 16px;
   line-height: 1.5;
-  color: #121212;
-  margin-bottom: 24px;
+  color: #8023aa;
+  margin-bottom: 16px;
 
   @include media(desktop) {
     font-size: 18px;
@@ -61,63 +66,52 @@
   }
 }
 
-.visual-list {
+.bonuses-list {
+  list-style-type: disc;
+  padding-left: 30px;
   display: flex;
   flex-direction: column;
-  gap: 8px;
-  margin-bottom: 24px;
-
-  @include media(desktop) {
-    margin-bottom: 32px;
-  }
-}
-
-.visual-list-item {
-  display: flex;
-  align-items: start;
-  gap: 8px;
+  margin-bottom: 40px;
 
   @include media(desktop) {
   }
 }
 
-.puzzle-icon {
-  min-width: 32px;
-
+.bonuses-list-item {
   @include media(desktop) {
   }
 }
 
-.visual-item-text {
-  font-family: 'Fredoka', sans-serif;
-  font-weight: 500;
+.bonuses-item-text {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
   font-size: 18px;
   line-height: 1.5;
-  color: #011e80;
+  color: #8023aa;
 
   @include media(desktop) {
     font-size: 20px;
   }
 }
 
-.visual-bottom-text {
-  font-family: 'Fredoka', sans-serif;
-  font-weight: 400;
+.bonuses-bottom-text {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 300;
   font-size: 16px;
   line-height: 1.5;
-  color: #121212;
+  color: #8023aa;
 
   @include media(desktop) {
     font-size: 18px;
   }
 }
 
-.visual-img {
+.bonuses-img {
   margin-left: auto;
   margin-right: auto;
 
   @include media(desktop) {
     margin: 0;
-    min-width: 529px;
+    min-width: 500px;
   }
 }

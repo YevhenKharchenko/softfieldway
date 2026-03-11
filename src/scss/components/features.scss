@@ -1,11 +1,11 @@
-.advantages-section {
+.features-section {
   background: #8023aa;
 
   @include media(desktop) {
   }
 }
 
-.advantages-bg-wrapper {
+.features-bg-wrapper {
   padding-top: 40px;
   padding-bottom: 40px;
   max-width: 375px;
@@ -20,22 +20,30 @@
   }
 }
 
-.advantages-container {
+.features-container {
   @include media(desktop) {
   }
 }
 
-.advantages-content-wrapper {
+.features-content-wrapper {
   @include media(desktop) {
   }
 }
 
-.advantages-text-wrapper {
+.features-text-wrapper {
   @include media(desktop) {
   }
 }
 
-.advantages-title {
+.features-title {
+  text-align: center;
+  color: #fffee7;
+
+  @include media(desktop) {
+  }
+}
+
+.features-subtitle {
   text-align: center;
   color: #fffee7;
   margin-bottom: 40px;
@@ -44,32 +52,26 @@
   }
 }
 
-.advantages-subtitle {
-  @include media(desktop) {
-  }
-}
-
-.advantages-top-text {
+.features-top-text {
   font-family: 'Outfit', sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 1.5;
-  color: #fffee7;
   text-align: center;
-  margin-bottom: 16px;
+  color: #fffee7;
+  margin-bottom: 24px;
 
   @include media(desktop) {
     font-size: 18px;
-    margin-bottom: 24px;
   }
 }
 
-.advantages-list {
+.features-list {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 16px;
-  margin-bottom: 24px;
+  margin-bottom: 40px;
 
   @include media(desktop) {
     flex-direction: row;
@@ -79,7 +81,7 @@
   }
 }
 
-.advantages-list-item {
+.features-list-item {
   background: linear-gradient(180deg, #bca7e3 0%, #fbf5d4 100%);
   border-radius: 24px;
   padding: 16px 24px;
@@ -91,7 +93,7 @@
   max-width: 343px;
 
   @include media(desktop) {
-    max-width: 256px;
+    max-width: 352px;
   }
 }
 
@@ -102,13 +104,14 @@
   }
 }
 
-.advantages-item-text {
+.features-item-text {
   font-family: 'Outfit', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
   color: #8023aa;
+  max-width: 195px;
 
   @include media(desktop) {
     font-size: 20px;
@@ -116,7 +119,7 @@
   }
 }
 
-.advantages-bottom-text {
+.features-bottom-text {
   font-family: 'Outfit', sans-serif;
   font-weight: 300;
   font-size: 16px;

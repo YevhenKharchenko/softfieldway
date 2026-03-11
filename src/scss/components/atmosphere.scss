@@ -1,62 +1,73 @@
-.advantages-section {
-  background: #8023aa;
-
+.atmosphere-section {
   @include media(desktop) {
   }
 }
 
-.advantages-bg-wrapper {
+.atmosphere-bg-wrapper {
   padding-top: 40px;
   padding-bottom: 40px;
   max-width: 375px;
   margin-left: auto;
   margin-right: auto;
-  position: relative;
 
   @include media(desktop) {
     padding-top: 80px;
     padding-bottom: 80px;
     max-width: 1440px;
+    position: relative;
   }
 }
 
-.advantages-container {
+.atmosphere-container {
+  @include media(desktop) {
+    padding-right: 127px;
+  }
+}
+
+.atmosphere-content-wrapper {
   @include media(desktop) {
   }
 }
 
-.advantages-content-wrapper {
+.atmosphere-text-wrapper {
   @include media(desktop) {
+    max-width: 577px;
+    margin-left: auto;
   }
 }
 
-.advantages-text-wrapper {
+.atmosphere-title {
   @include media(desktop) {
+    max-width: 527px;
   }
 }
 
-.advantages-title {
-  text-align: center;
-  color: #fffee7;
+.atmosphere-subtitle {
   margin-bottom: 40px;
 
   @include media(desktop) {
   }
 }
 
-.advantages-subtitle {
+.atmosphere-img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 24px;
+
   @include media(desktop) {
+    position: absolute;
+    top: 80px;
+    left: 160px;
   }
 }
 
-.advantages-top-text {
+.atmosphere-top-text {
   font-family: 'Outfit', sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 1.5;
-  color: #fffee7;
-  text-align: center;
-  margin-bottom: 16px;
+  color: #8023aa;
+  margin-bottom: 15px;
 
   @include media(desktop) {
     font-size: 18px;
@@ -64,65 +75,40 @@
   }
 }
 
-.advantages-list {
+.atmosphere-list {
+  list-style-type: disc;
+  padding-left: 30px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 16px;
   margin-bottom: 24px;
 
   @include media(desktop) {
-    flex-direction: row;
-    justify-content: center;
-    gap: 32px;
-    margin-bottom: 24px;
   }
 }
 
-.advantages-list-item {
-  background: linear-gradient(180deg, #bca7e3 0%, #fbf5d4 100%);
-  border-radius: 24px;
-  padding: 16px 24px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 24px;
-  width: 100%;
-  max-width: 343px;
-
-  @include media(desktop) {
-    max-width: 256px;
-  }
-}
-
-.puzzle-icon {
-  min-width: 32px;
-
+.atmosphere-list-item {
   @include media(desktop) {
   }
 }
 
-.advantages-item-text {
+.atmosphere-item-text {
   font-family: 'Outfit', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.5;
-  text-align: center;
   color: #8023aa;
 
   @include media(desktop) {
     font-size: 20px;
-    max-width: 224px;
   }
 }
 
-.advantages-bottom-text {
+.atmosphere-bottom-text {
   font-family: 'Outfit', sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 1.5;
-  text-align: center;
-  color: #fffee7;
+  color: #8023aa;
 
   @include media(desktop) {
     font-size: 18px;

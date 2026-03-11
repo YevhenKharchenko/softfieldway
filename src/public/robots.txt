@@ -3,4 +3,4 @@ Disallow: /admin/
 Disallow: /private/
 Allow: /
 
-Sitemap: https://outerrange.pro/sitemap.xml
+Sitemap: https://softfieldway.pro/sitemap.xml
